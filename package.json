@@ -48,7 +48,6 @@
         "nestjs-twilio": "^2.2.1",
         "node-dijkstra": "^2.5.0",
         "node-gyp": "^9.1.0",
-        "node-tspsolver": "^1.0.2",
         "passport": "^0.5.2",
         "passport-jwt": "^4.0.0",
         "passport-local": "^1.0.0",

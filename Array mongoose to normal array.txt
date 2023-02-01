@@ -1,0 +1,15 @@
+async findAllCord(){
+
+  var ppp2 = await this.catModel16.find().lean().exec();
+
+  var ppp = (ppp2);
+  console.log(ppp2);
+  console.log(ppp);
+
+  let result = ppp2.map(a => a.longtitude);
+
+  console.log("dummy");
+  console.log(result[0]);
+  return result;
+  
+}

@@ -1,0 +1,14 @@
+ssh fds@192.168.1.202
+password: 1
+cd 365truck/backend_365truck/
+git pull 
+
+
+docker-compose up -d --build
+
+logout
+
+
+
+
+npm start run:prod
